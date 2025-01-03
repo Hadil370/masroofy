@@ -1,0 +1,172 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fafafa; /* Light background */
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  /* Headings */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+  }
+  
+  /* Link Styles */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Button Styling */
+  .MuiButton-contained {
+    border-radius: 8px; /* Smooth rounded corners */
+    padding: 10px 20px; /* More padding for buttons */
+    font-weight: 600;
+  }
+  
+  .MuiButton-contained:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+  }
+  
+  /* Container Styling */
+  .container {
+    padding: 30px;
+  }
+  
+  /* Input Fields */
+  .MuiTextField-root {
+    margin-bottom: 20px; /* Space between inputs */
+  }
+  
+  /* Card Design for Pages */
+  .page-layout {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 800px;
+    margin: 30px auto;
+  }
+  
+  /* Home Page Styles */
+  .homepage {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .homepage h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+  }
+  
+/* Add Transaction Page Styles */
+.transaction-form {
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .transaction-form .MuiTextField-root {
+    margin-bottom: 20px; /* Space between inputs */
+  }
+  
+  .transaction-form button {
+    margin-top: 20px;
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .transaction-form button:hover {
+    background-color: #45a049;
+  }
+  
+  
+  /* Transaction List Page Styles */
+  .transaction-list {
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 30px auto;
+  }
+  
+  .transaction-list .MuiListItem-root {
+    border-bottom: 1px solid #eee;
+    padding: 12px 0;
+  }
+  
+  .transaction-list button {
+    background-color: #2196f3;
+    color: white;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .transaction-list button:hover {
+    background-color: #1976d2;
+    transform: translateY(-2px);
+  }
+  
+  /* Reports Page Styles */
+  .reports-page {
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 30px auto;
+    text-align: center;
+  }
+  
+  .reports-page button {
+    background-color: #2196f3;
+    color: white;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .reports-page button:hover {
+    background-color: #1976d2;
+    transform: translateY(-2px);
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .homepage {
+      padding: 20px;
+    }
+  
+    .transaction-form,
+    .transaction-list,
+    .reports-page {
+      padding: 20px;
+      margin: 10px;
+    }
+  
+    .transaction-form button,
+    .transaction-list button,
+    .reports-page button {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .transaction-form button,
+    .transaction-list button,
+    .reports-page button {
+      font-size: 12px;
+    }
+  
+    .homepage h3 {
+      font-size: 24px;
+    }
+  }
+  
